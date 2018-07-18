@@ -8,7 +8,7 @@ setup(
     description="Black formatter percentage checker",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version="0.0.1",
+    version="0.0.2",
     author="Milan Suk",
     author_email="milan.suk@kiwi.com",
     install_requires=["black"],

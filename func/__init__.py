@@ -37,3 +37,7 @@ def parse_black_result(black_result):
 
 def calculate_percentage(changed, unchanged):
     return unchanged / (changed + unchanged)
+
+
+def generate_badge(percentage):
+    return f"https://img.shields.io/badge/Formatted_by_Black-{int(percentage * 100)}%25-lightgrey.svg"
