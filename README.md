@@ -7,7 +7,7 @@ Util for testing the project formating by *black formatter*.
 ## Basic usage
 
 ```bash
-$ pip install black-percentage-test
+$ pip install black-percentage-tester
 ...
 $ cd <your-project-dir>
 $ black-percentage-test
